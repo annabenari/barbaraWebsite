@@ -1,0 +1,41 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10% 6%;
+    grid-column-gap: 1%;
+    grid-row-gap: 5%;
+    justify-content: center; 
+  }
+  
+  .grid-item {
+    width: 500px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: center;
+  }
+ nav {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center; /* Center items vertically */
+  background-color: #333; /* Background color for the navigation */
+  padding: 10px; /* Adjust the padding as needed */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-auto-flow: column; /* Arrange items in a row */
+  gap: 20px; /* Adjust the gap between menu items */
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #ddd; /* Change color on hover */
+}
