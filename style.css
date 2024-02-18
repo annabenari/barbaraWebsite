@@ -1,23 +1,21 @@
 .grid-container {
-    display: grid;
-    grid-template-columns: auto auto;
-    padding: 10% 6%;
-    grid-column-gap: 1%;
-    grid-row-gap: 5%;
-    justify-content: center; 
-  }
-  
-  .grid-item {
-    width: 500px;
-    height: 400px;
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    text-align: center;
-  }
- nav {
   display: grid;
-  grid-template-columns: auto 1fr;
-  align-items: center; /* Center items vertically */
+  grid-template-columns: auto auto;
+  padding: 10% 6%;
+  grid-column-gap: 1%;
+  grid-row-gap: 5%;
+  justify-content: center; 
+}
+
+.grid-item {
+  width: 500px;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+
+nav {
   background-color: #333; /* Background color for the navigation */
   padding: 10px; /* Adjust the padding as needed */
 }
@@ -29,6 +27,7 @@ ul {
   display: grid;
   grid-auto-flow: column; /* Arrange items in a row */
   gap: 20px; /* Adjust the gap between menu items */
+  justify-content: end; /* Align items to the end */
 }
 
 a {
