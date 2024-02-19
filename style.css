@@ -35,16 +35,26 @@ body {
   justify-content: center;
 }
 
+
+.grid-item-outer {
+  display: grid;
+  padding-bottom: 5%;
+  justify-content: center;
+}
+
 .grid-item {
-  width: 1000px;
+  display: grid;
+  width: 1035px;
   height: 100px;
   text-align: center;
   justify-content: center;
   background-color: #efdfcc;
   border-radius: 30px;
-
+  grid-template-columns: auto auto auto;
+  margin: 0 auto; /* Center horizontally */
+  padding: 20px;
+ 
 }
-
 .services-header {
   display: grid;
   justify-content: center;
@@ -112,8 +122,4 @@ a:hover {
 
 .important-info{
   line-height: 1.8;
-}
-
-.about-me{
-  padding-top: 25px;
 }
