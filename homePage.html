@@ -30,26 +30,28 @@
                 Phone Number<br>
                 barbarawolfecounselling@gmail.com</p>
 
-            <button>Book Now</button>
+            <button type="button">Book Now</button>
+
 
 
         </div>
-        <div class="image">image</div>
+        <div class="image"> <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkpoo6Ns6fnoCLv0Ocdz7TLycUfwFejWTrdQ&usqp=CAU"
+                alt="alternatetext"></div>
+
     </div>
 
-    <div class="grid-item-outer">
-        <div class="grid-item">
-            <p>I am a psychotherapist with over 30 years experience, working with children, families, individuals of all
+
+    <!-- <p>I am a psychotherapist with over 30 years experience, working with children, families, individuals of all
                 ages, and couples. I have recently retired from my formal employment, in order to expand my practice to
-                focus on relationship/couples’ issues and to offer Supervision to other therapists.</p>
-        </div>
-    </div>
+                focus on relationship/couples’ issues and to offer Supervision to other therapists.</p> -->
+
 
 
 
 
     <div class="services-header">
-        <h2>Services</h2>
+        <p>Services</p>
 
     </div>
 
@@ -57,19 +59,40 @@
         <div class="supervision">
             <h4>Supervision</h4>
             <p>I've been a counseling supervisor since 2005, overseeing diverse settings such as helpline volunteers,
-                staff teams aiding homeless youth, individual therapists, and social work students. My integrative style
-                blends academic knowledge with hands-on experience, enabling me to support professionals grappling with
-                stress or burnout. Whether you're a counselor seeking supervision or another professional needing
-                guidance, I'm here to help. I also specialize in group supervision, offering an enriching environment
-                for shared learning and cost-effective support. Contact me for a chat about how I can assist you.</p>
+                staff teams aiding homeless youth, individual therapists, and social work students. </p>
+            <button type="button">Read More</button>
         </div>
         <div class="counseling">
             <h4>Relationship Counseling</h4>
             <p>In relationships, challenges abound, but therapy offers a guiding light. While outcomes aren't
                 guaranteed, therapy equips you with skills to navigate turmoil. Whether with a partner, family, or
                 friends, therapy fosters a positive path forward.</p>
+            <button type="button">Read More</button>
         </div>
     </div>
+
+
+
+    <div class="container">
+        <form action="action_page.php">
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Your email">
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+            <button type="button">Submit</button>
+
+        </form>
+    </div>
+
 
 </body>
 
