@@ -176,7 +176,7 @@ textarea {
 
 
 /* supervision */
-.supervision-detail, .councilling-detail {
+.supervision-detail, .councilling-detail, .faq {
   display: grid;
   padding: 2% 2%;
   grid-column-gap: 5%;
@@ -184,7 +184,7 @@ textarea {
   
 }
 
-.supervision-details-inside, .councilling-details-inside {
+.supervision-details-inside, .councilling-details-inside, .faq-inside{
   width: 1000px;
   height: 550px;
   padding: 30px;
@@ -202,4 +202,27 @@ textarea {
   display: flex;
   flex-direction: column
   
+}
+
+
+/* faq */
+
+.hover-area {
+	text-align:flex-end;
+}
+.reveal {
+	background: #d4c2ad;
+	display: none;
+	border-radius: 15px;
+  border: 5px solid #4e5d4b;
+  padding: 25px;
+}
+.question {
+	color: #686868;
+	-webkit-transition: all 300ms;
+
+}
+
+p {
+  text-align: left;
 }
