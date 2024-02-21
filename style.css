@@ -1,11 +1,10 @@
-/* Global Styles */
 body {
   font-family: 'Open sans';
   background-color: #d4c2ad;
   color: #686868;
 }
 
-/* Contact Details Section */
+/* Contact Details Section Home Page*/
 .contact-details {
   display: grid;
   grid-template-columns: auto auto;
@@ -14,26 +13,21 @@ body {
   justify-content: center;
 }
 
+.contact-details-inside {
+  width: 700px;
+  height: 300px;
+  text-align: center;
+  border-radius: 30px;
+  justify-content: center;
+}
+
 .image {
   width: 250px;
   height: 260px;
   text-align: center;
   padding: 20px;
-  /* background-color: #efdfcc; */
-  /* border: 10px solid #66796B; */
-  
-  border-radius: 30px;
 }
 
-.contact-details-inside {
-  width: 700px;
-  height: 300px;
-  text-align: center;
-  /* background-color: #efdfcc; */
-  /* border: 10px solid #66796B; */
-  border-radius: 30px;
-  justify-content: center;
-}
 
 /* Services Section */
 .services-header {
@@ -83,12 +77,12 @@ ul {
   justify-content: flex-end;
 }
 
-/* Home Link */
+
 .home {
   margin-right: auto;
 }
 
-/* Navigation Links */
+
 a {
   text-decoration: none;
   color: #efdfcc;
@@ -103,6 +97,8 @@ a:hover {
   line-height: 1.8;
 }
 
+
+/* button */
 button {
   width: 150px;
   height: 70px;
@@ -119,7 +115,10 @@ button:hover {
   background-color: #4e5d4b; /* Change background color on hover */
 }
 
-/* Style inputs with type="text", select elements and textareas */
+
+
+
+/* conatct me */
 input[type=text],
 select,
 textarea {
@@ -174,7 +173,10 @@ textarea {
 }
 
 
-.supervision-detail {
+
+
+/* supervision */
+.supervision-detail, .councilling-detail {
   display: grid;
   padding: 2% 2%;
   grid-column-gap: 5%;
@@ -182,15 +184,12 @@ textarea {
   
 }
 
-.supervision-details-inside {
+.supervision-details-inside, .councilling-details-inside {
   width: 1000px;
   height: 550px;
   padding: 30px;
-  /* text-align: center; */
-  /* background-color: #efdfcc; */
   border-radius: 30px;
   border: 5px solid #66796B;
-
   justify-content: center;
 
   
