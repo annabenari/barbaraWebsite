@@ -19,7 +19,9 @@ body {
   height: 260px;
   text-align: center;
   padding: 20px;
-  background-color: #efdfcc;
+  /* background-color: #efdfcc; */
+  /* border: 10px solid #66796B; */
+  
   border-radius: 30px;
 }
 
@@ -27,7 +29,8 @@ body {
   width: 700px;
   height: 300px;
   text-align: center;
-  background-color: #efdfcc;
+  /* background-color: #efdfcc; */
+  /* border: 10px solid #66796B; */
   border-radius: 30px;
   justify-content: center;
 }
@@ -59,7 +62,9 @@ body {
   text-align: center;
   padding: 20px;
   border-radius: 30px;
-  background-color: #d4c2ad;
+  /* background-color: #d4c2ad; */
+  border: 5px solid #66796B;
+
 }
 
 /* Navigation Styles */
@@ -125,13 +130,10 @@ textarea {
   font-family: 'Open sans';
   border-radius: 10px; /* Rounded borders */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
-
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
 }
-
-
 
 /* Add a background color and some padding around the form */
 .container {
@@ -140,7 +142,65 @@ textarea {
   align-items: center;
   border-radius: 5px;
   background-color:  #d4c2ad;
+
+  border-width: 10px;
   padding: 20px;
   padding-left: 200px;
   padding-right: 200px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .contact-details {
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+
+  .services {
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+
+  .supervision,
+  .counseling {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+
+.supervision-detail {
+  display: grid;
+  padding: 2% 2%;
+  grid-column-gap: 5%;
+  justify-content: center;
+  
+}
+
+.supervision-details-inside {
+  width: 1000px;
+  height: 550px;
+  padding: 30px;
+  /* text-align: center; */
+  /* background-color: #efdfcc; */
+  border-radius: 30px;
+  border: 5px solid #66796B;
+
+  justify-content: center;
+
+  
+}
+
+.supervision-list{
+  list-style-type:disc;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column
+  
 }
