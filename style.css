@@ -26,7 +26,14 @@ body {
   height: 260px;
   text-align: center;
   padding: 20px;
+  justify-content: center;
 }
+.important-info {
+  line-height: 1.8;
+  justify-content: center;
+  text-align: center;
+}
+
 
 
 /* Services Section */
@@ -209,6 +216,7 @@ textarea {
 
 .hover-area {
 	text-align:flex-end;
+  cursor: pointer; 
 }
 .reveal {
 	background: #d4c2ad;
