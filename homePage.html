@@ -10,15 +10,17 @@
 </head>
 
 <body>
-
-    <nav>
-        <ul>
-            <li class="home"><a href="./homePage.html">Home</a></li>
-            <li><a href="./supervision.html">Supervision</a></li>
-            <li><a href="./councilling.html">Counseling</a></li>
-            <li><a href="#contact-me">Contact Me</a></li>
-        </ul>
-    </nav>
+    <div class="nav-wrapper">
+        <nav>
+            <ul>
+                <li class="home"><a href="./homePage.html">Home</a></li>
+                <li><a href="./supervision.html">Supervision</a></li>
+                <li><a href="./councilling.html">Counseling</a></li>
+                <li class="contact-me-p"><a href="#contact-me">Contact Me</a></li>
+                <li><a href="./faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </div>
 
 
 
@@ -58,13 +60,15 @@
     <div class="services">
         <div class="supervision">
             <h4>Supervision</h4>
-            <p>I've been a counseling supervisor since 2005, overseeing diverse settings such as helpline volunteers,
+            <p class="supervision-text">I've been a counseling supervisor since 2005, overseeing diverse settings such
+                as helpline volunteers,
                 staff teams aiding homeless youth, individual therapists, and social work students. </p>
             <button type="button">Read More</button>
         </div>
         <div class="counseling">
             <h4>Relationship Counseling</h4>
-            <p>In relationships, challenges abound, but therapy offers a guiding light. While outcomes aren't
+            <p class="supervision-text">In relationships, challenges abound, but therapy offers a guiding light. While
+                outcomes aren't
                 guaranteed, therapy equips you with skills to navigate turmoil. Whether with a partner, family, or
                 friends, therapy fosters a positive path forward.</p>
             <button type="button">Read More</button>
@@ -73,9 +77,10 @@
 
 
 
+
     <div class="container">
         <a id="contact-me"></a>
-        <form action="action_page.php">
+        <form action="https://formspree.io/f/mjvnrbpq" method="POST">
 
             <label for="fname">First Name</label>
             <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -86,15 +91,21 @@
             <label for="email">Email</label>
             <input type="text" id="email" name="email" placeholder="Your email">
 
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            <label for="message">Subject</label>
+            <textarea id="subject" name="message" placeholder="Write something.." style="height:200px"></textarea>
 
-            <button type="button">Submit</button>
+            <button type="submit">Submit</button>
 
         </form>
     </div>
 
 
 </body>
+
+
+
+
+
+
 
 </html>
