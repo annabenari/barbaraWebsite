@@ -222,6 +222,54 @@ p {
 
 
 /* Media Queries */
+@media only screen and (max-width: 920px) {
+
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .contact-details {
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+  .contact-details-inside {
+    grid-template-columns: auto;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .services {
+    grid-template-columns: auto;
+    justify-content: center;
+    width: auto;
+    
+  }
+
+  .supervision,
+  .counseling {
+    justify-content: center;
+    text-align: center;
+    margin-left: 13%;
+    margin-right: 13%;
+    width: auto;
+    padding: 2%;
+    max-width: 700px;
+  }
+
+  .supervision-text{
+    justify-content: center;
+    text-align: center;
+  }
+
+  image{
+    grid-template-columns: auto;
+
+    justify-content:center;
+    text-align: center;
+  }
+
+}
 @media only screen and (max-width: 768px) {
 
   .container {
@@ -242,6 +290,7 @@ p {
   .services {
     grid-template-columns: auto;
     justify-content: center;
+    width: auto;
     
   }
 
@@ -252,7 +301,7 @@ p {
     margin-left: 13%;
     margin-right: 13%;
     width: auto;
-    padding: 5%;
+    padding: 2%;
     max-width: 700px;
   }
 
@@ -262,16 +311,23 @@ p {
   }
 
   image{
+    grid-template-columns: auto;
     justify-content: center;
+    text-align: center;
   }
 
 
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 400px) {
 
-  
+  image{
+    grid-template-columns: auto;
+    justify-content: center;
+    text-align: center;
+  }
+
   nav {
     padding: 5%;
   }
