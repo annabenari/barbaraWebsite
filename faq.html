@@ -5,22 +5,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
     <title></title>
+
     <link rel="stylesheet" href="style.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="index.js"></script>
+
 </head>
 
 <body>
 
-    <nav>
-        <ul>
-            <li class="home"><a href="./homePage.html">Home</a></li>
-            <li><a href="./supervision.html">Supervision</a></li>
-            <li><a href="./councilling.html">Counseling</a></li>
-            <li><a href="./homePage.html#contact-me">Contact Me</a></li>
-        </ul>
-    </nav>
+    <body>
+        <div class="nav-wrapper">
+            <nav>
+                <ul>
+                    <li class="home"><a href="./homePage.html">Home</a></li>
+                    <li><a href="./supervision.html">Supervision</a></li>
+                    <li><a href="./councilling.html">Counseling</a></li>
+                    <li class="contact-me-p"><a href="#contact-me">Contact Me</a></li>
+                    <li><a href="./faq.html">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    <div class="phone-nav">
+        <div class="topnav">
+            <a href="./homePage.html" class="home active">Home</a>
+
+            <div id="myLinks" class="links">
+                <a href="./supervision.html">Supervision</a>
+                <a href="./councilling.html">Counseling</a>
+                <a href="#contact-me">Contact Me</a>
+                <a href="./faq.html">FAQ</a>
+            </div>
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
 
     <div class="faq">
         <div class="faq-inside">
@@ -77,5 +101,6 @@
 
     </div>
 </body>
+<script src="./index.js"></script>
 
 </html>

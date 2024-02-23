@@ -106,6 +106,60 @@ a:hover {
   line-height: 1.8;
 }
 
+.phone-nav{
+  display: none;
+  width: 100%;
+}
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #686868;
+  position: relative;
+  border-radius: 5%;
+ 
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav .links {
+  display: none;
+}
+
+.topnav.responsive .links {
+  display: block;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: #efdfcc;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: #686868;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color:#686868;
+  color: #efdfcc;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #686868;
+  color: white;
+}
+
+
 
 /* button */
 button {
@@ -173,15 +227,16 @@ textarea {
 }
 
 .supervision-details-inside, .councilling-details-inside, .faq-inside{
-  width: 1000px;
-  height: 550px;
-  padding: 30px;
+ padding: 30px;
   border-radius: 30px;
   border: 5px solid #66796B;
-  justify-content: center;
-
+  justify-content: center; 
+  width: auto;
+  height: auto;
   
 }
+
+
 
 .supervision-list{
   list-style-type:disc;
@@ -268,6 +323,14 @@ p {
     justify-content:center;
     text-align: center;
   }
+  .supervision-details-inside {
+    grid-template-columns: auto;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    
+  }
+
 
 }
 @media only screen and (max-width: 768px) {
@@ -315,12 +378,21 @@ p {
     justify-content: center;
     text-align: center;
   }
-
+  .supervision-details-inside {
+    grid-template-columns: auto;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    
+  }
+  .nav-wrapper{
+    display: none;
+  }
 
 }
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
 
   image{
     grid-template-columns: auto;
@@ -328,22 +400,28 @@ p {
     text-align: center;
   }
 
-  nav {
-    padding: 5%;
-  }
-  ul {
-
-    font-size: 0.8em;
-    justify-content:center;
-    flex-wrap: wrap;
-  }
-
-  li {
- 
-   margin: 5px 14px;
-  }
   .contact-me-p{
     display: inline-block;
     white-space: nowrap;
   }
+
+  .phone-nav {
+    display: block; /* or inline-block or any other display value you want */
+  }
+  
+  .nav-wrapper{
+    display: none;
+  }
+  .supervision-details-inside {
+    grid-template-columns: auto;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    
+  }
+
+  
 }
+
+
+
