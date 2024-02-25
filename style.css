@@ -172,10 +172,15 @@ button {
   cursor: pointer; /* Change cursor to pointer */
   font-family: 'Open sans';
   color: #efdfcc;
+  
 }
 
 button:hover {
   background-color: #4e5d4b; /* Change background color on hover */
+}
+
+.read-more-supervision{
+margin-top: 44px;
 }
 
 
@@ -218,7 +223,7 @@ textarea {
 
 
 /* supervision */
-.supervision-detail, .councilling-detail{
+.supervision-detail, .counselling-detail{
   display: grid;
   padding: 2% 2%;
   grid-column-gap: 5%;
@@ -233,7 +238,7 @@ textarea {
  
 }
 
-.supervision-details-inside, .councilling-details-inside, .faq-inside{
+.supervision-details-inside, .counselling-details-inside, .faq-inside{
  padding: 30px;
   border-radius: 30px;
   border: 5px solid #66796B;
