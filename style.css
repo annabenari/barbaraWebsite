@@ -10,24 +10,24 @@ body {
   display: grid;
   grid-template-columns: auto auto;
   padding: 2% 2%;
-  grid-column-gap: 5%;
+  /* grid-column-gap: 2%; */
   justify-content: center;
 }
 
 .contact-details-inside {
-  width: 700px;
+  padding-top: 40px;
+  width: 430px;
   height: 300px;
   text-align: center;
   border-radius: 30px;
   justify-content: center;
 }
 
-.image {
-  width: 250px;
-  height: 260px;
+.img {
+  width: 330px;
+  height: 340px;
   text-align: center;
-  padding: 20px;
-  justify-content: center;
+ 
 }
 .important-info {
   line-height: 1.8;
@@ -218,12 +218,19 @@ textarea {
 
 
 /* supervision */
-.supervision-detail, .councilling-detail, .faq {
+.supervision-detail, .councilling-detail{
   display: grid;
   padding: 2% 2%;
   grid-column-gap: 5%;
   justify-content: center;
   
+}
+
+.faq{
+  display: grid;
+  padding: 2% 2%;
+  grid-column-gap: 5%;
+ 
 }
 
 .supervision-details-inside, .councilling-details-inside, .faq-inside{
@@ -317,12 +324,19 @@ p {
     text-align: center;
   }
 
-  image{
+  img{
     grid-template-columns: auto;
-
+    /* width: auto; */
     justify-content:center;
     text-align: center;
+    width: 100%;
+    padding-right: 0;
+
   }
+
+
+
+
   .supervision-details-inside {
     grid-template-columns: auto;
     justify-content: center;
@@ -373,10 +387,11 @@ p {
     text-align: center;
   }
 
-  image{
+  img{
     grid-template-columns: auto;
     justify-content: center;
     text-align: center;
+    padding-bottom: 50px;
   }
   .supervision-details-inside {
     grid-template-columns: auto;
@@ -385,19 +400,20 @@ p {
     height: auto;
     
   }
-  .nav-wrapper{
+  /* .nav-wrapper{
     display: none;
-  }
+  } */
 
 }
 
 
 @media only screen and (max-width: 450px) {
 
-  image{
+  img{
     grid-template-columns: auto;
     justify-content: center;
     text-align: center;
+    padding-bottom: 50px;
   }
 
   .contact-me-p{
