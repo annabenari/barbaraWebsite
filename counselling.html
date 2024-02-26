@@ -82,25 +82,27 @@
 
 
 
-        <div class="container" id="contact-me">
-            <form action="action_page.php">
+        <div class="container">
+            <a id="contact-me"></a>
+            <form action="https://formspree.io/f/xjvnrwzk" method="POST">
 
                 <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <input type="text" id="fname" name="fname" placeholder="Your name..">
 
                 <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <input type="text" id="lname" name="lname" placeholder="Your last name..">
 
                 <label for="email">Email</label>
                 <input type="text" id="email" name="email" placeholder="Your email">
 
-                <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                <label for="message">Subject</label>
+                <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
 
-                <button type="button">Submit</button>
+                <button type="submit">Submit</button>
 
             </form>
         </div>
+
 
 
     </body>
