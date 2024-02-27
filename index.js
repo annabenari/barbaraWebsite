@@ -13,3 +13,16 @@ function myFunction() {
     x.style.display = "block";
   }
 }
+
+function validateForm() {
+  var fname = document.getElementById("fname").value;
+  var lname = document.getElementById("lname").value;
+  var email = document.getElementById("email").value;
+  var message = document.getElementById("message").value;
+
+  if (fname === "" || lname === "" || email === "" || message === "") {
+    alert("You can only submit if all fields are filled out");
+  } else {
+    document.getElementById("myForm").submit();
+  }
+}
