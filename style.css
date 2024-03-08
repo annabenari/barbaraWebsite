@@ -187,7 +187,7 @@ button {
   width: 150px;
   height: 70px;
   background-color: #8188A8;
-  border-radius: 20%;
+  border-radius: 10px;
   border: 0;
   transition-duration: 0.4s;
   cursor: pointer; /* Change cursor to pointer */
