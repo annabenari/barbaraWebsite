@@ -197,7 +197,7 @@ button {
 }
 
 button:hover {
-  background-color: #4e5d4b; /* Change background color on hover */
+  background-color: #F2EDDC; /* Change background color on hover */
 }
 
 .read-more-supervision{
@@ -262,7 +262,7 @@ textarea {
 .supervision-details-inside, .counselling-details-inside, .faq-inside{
  padding: 30px;
   border-radius: 30px;
-  border: 5px solid #66796B;
+  /* border: 5px solid #66796B; */
   justify-content: center; 
   width: auto;
   height: auto;
