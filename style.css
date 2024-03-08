@@ -135,7 +135,7 @@ a:hover {
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
-  background-color: #686868;
+  background-color: #8188A8;
   position: relative;
   border-radius: 5%;
  
@@ -152,7 +152,7 @@ a:hover {
 
 /* Style navigation menu links */
 .topnav a {
-  color: #efdfcc;
+  color: black;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -161,7 +161,7 @@ a:hover {
 
 /* Style the hamburger menu */
 .topnav a.icon {
-  background: #686868;
+  background: #8188A8;
   display: block;
   position: absolute;
   right: 0;
@@ -170,14 +170,14 @@ a:hover {
 
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
-  background-color:#686868;
-  color: #efdfcc;
+  background-color:#8188A8;
+  color: black;
 }
 
 /* Style the active link (or home/logo) */
 .active {
-  background-color: #686868;
-  color: white;
+  background-color: #8188A8;
+  color: black;
 }
 
 
@@ -350,16 +350,13 @@ p {
     text-align: center;
   }
 
-  img{
-    grid-template-columns: auto;
-    /* width: auto; */
-    justify-content:center;
+  .img {
+    width: 250px;
+    height: 260px;
     text-align: center;
-    width: 100%;
-    padding-right: 0;
-
-  }
-
+    padding-top: 70px;
+    padding-left: 50px;
+}
 
 
 
@@ -383,6 +380,7 @@ p {
   .contact-details {
     grid-template-columns: auto;
     justify-content: center;
+
   }
   .contact-details-inside {
     grid-template-columns: auto;
@@ -406,6 +404,7 @@ p {
     width: auto;
     padding: 2%;
     max-width: 700px;
+    padding-bottom: 30px;
   }
 
   .supervision-text{
@@ -413,12 +412,13 @@ p {
     text-align: center;
   }
 
-  img{
-    grid-template-columns: auto;
-    justify-content: center;
-    text-align: center;
-    padding-bottom: 50px;
-  }
+  .img {
+    width: 250px;
+    height: 260px;
+    /* justify-content: inline; */
+    padding-left: 40px;
+   
+}
   .supervision-details-inside {
     grid-template-columns: auto;
     justify-content: center;
@@ -435,13 +435,7 @@ p {
 
 @media only screen and (max-width: 450px) {
 
-  img{
-    grid-template-columns: auto;
-    justify-content: center;
-    text-align: center;
-    padding-bottom: 50px;
-  }
-
+ 
   .contact-me-p{
     display: inline-block;
     white-space: nowrap;
