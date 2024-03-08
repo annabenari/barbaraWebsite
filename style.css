@@ -1,7 +1,8 @@
 body {
   font-family: 'Open sans';
-  background-color: #d4c2ad;
-  color: #686868;
+  background-color:#F2EDDC;
+  
+  color: black;
   
 }
 
@@ -9,8 +10,7 @@ body {
 .contact-details {
   display: grid;
   grid-template-columns: auto auto;
-  padding: 2% 2%;
-  /* grid-column-gap: 2%; */
+  padding: 5% 5%;
   justify-content: center;
 }
 
@@ -24,9 +24,10 @@ body {
 }
 
 .img {
-  width: 330px;
-  height: 340px;
+  width: 250px;
+  height: 260px;
   text-align: center;
+  padding-top: 70px;
  
 }
 .important-info {
@@ -41,40 +42,60 @@ body {
 .services-header {
   display: grid;
   justify-content: center;
-  padding-bottom: 2%;
-  background-color: #efdfcc;
-  color: #686868;
+  padding-bottom: 1%;
+  /* background-color:#8188A8 ; */
+  color: black;
   font-size: 40px;
-}
+  /* border: 2px solid #8188A8; */
+  /* text-decoration: underline   blue; */
 
+}
+hr {
+  margin: 2em auto; /* centred margin */
+  height: 2px; /* thickness of the line */
+  background-color: #8188A8; /* colour of the line */
+  border: none; /* no border */
+  width: 75%;
+}
 .services {
+ 
   display: grid;
   grid-template-columns: auto auto;
   grid-column-gap: 3%;
-  grid-row-gap: 5%;
+  grid-row-gap: 2%;
   justify-content: center;
-  padding-bottom: 100px;
-  background-color: #efdfcc;
+  /* padding-bottom: 100px; */
+  background-color: #F2EDDC;
+
+ 
 }
 
-.supervision,
+ .supervision,
 .counseling {
-  width: 300px;
-  height: 500px;
+  width: 400px;
+  height: 300px;
   text-align: center;
-  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
   border-radius: 30px;
   /* background-color: #d4c2ad; */
-  border: 5px solid #66796B;
+  /* border: 5px solid #66796B; */
 
+}
+p.supervision-text{
+  text-align: center;
 }
 
 /* Navigation Styles */
 nav {
-  background-color: #686868;
+  background-color: #8188A8;
   padding: 30px;
   margin: 0;
-  border-radius: 30px;
+  border-radius: 10px;
+  /* border: 2px solid #BFB3A4; */
+
+
 }
 
 ul {
@@ -94,7 +115,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: #efdfcc;
+  color: black;
   padding: 0 10px;
 }
 
@@ -165,13 +186,13 @@ a:hover {
 button {
   width: 150px;
   height: 70px;
-  background-color: #66796B;
+  background-color: #8188A8;
   border-radius: 20%;
   border: 0;
   transition-duration: 0.4s;
   cursor: pointer; /* Change cursor to pointer */
   font-family: 'Open sans';
-  color: #efdfcc;
+  color: black;
   
 }
 
@@ -180,7 +201,7 @@ button:hover {
 }
 
 .read-more-supervision{
-margin-top: 44px;
+margin-top: 22px;
 }
 
 
@@ -192,8 +213,8 @@ select,
 textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */
-  border: #efdfcc;
-  background-color: #efdfcc;
+  border:1px solid  #8188A8;
+  background-color: #F2EDDC;
   font-family: 'Open sans';
   border-radius: 10px; /* Rounded borders */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
@@ -208,7 +229,7 @@ textarea {
   justify-content: center;
   align-items: center;
   border-radius: 5px;
-  background-color:  #d4c2ad;
+  background-color:  #F2EDDC;
 
   border-width: 10px;
   padding: 20px;
@@ -274,7 +295,7 @@ textarea {
   padding: 25px;
 }
 .question {
-	color: #686868;
+	color: black;
 	-webkit-transition: all 300ms;
 
 }
