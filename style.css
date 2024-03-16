@@ -1,6 +1,6 @@
 body {
   font-family: 'Open sans';
-  background-color:#F2EDDC;
+  background-color:#FFF2D7;
   
   color: black;
   
@@ -50,6 +50,33 @@ body {
   /* text-decoration: underline   blue; */
 
 }
+
+.about-me-header {
+  display: grid;
+  justify-content: center;
+  padding-bottom: 1%;
+  color: black;
+  font-size: 40px;
+}
+
+.about-me {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+ padding-left: 25%;
+ padding-right: 25%;
+}
+
+.about-me p {
+  text-align: center;
+}
+
+.read-more-supervision {
+  margin-top: 20px; /* Adjust as needed */
+}
+
+
+
 hr {
   margin: 2em auto; /* centred margin */
   height: 2px; /* thickness of the line */
@@ -65,7 +92,7 @@ hr {
   grid-row-gap: 2%;
   justify-content: center;
   /* padding-bottom: 100px; */
-  background-color: #F2EDDC;
+ 
 
  
 }
@@ -89,7 +116,7 @@ p.supervision-text{
 
 /* Navigation Styles */
 nav {
-  background-color: #8188A8;
+  background-color: #F98866;
   padding: 30px;
   margin: 0;
   border-radius: 10px;
@@ -98,13 +125,26 @@ nav {
 
 }
 
-ul {
+/* ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
   display: flex;
   justify-content: flex-end;
   
+} */
+
+.about-me-list {
+  list-style-type: circle;
+ 
+}
+
+.nav-list{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
 }
 
 
@@ -135,7 +175,7 @@ a:hover {
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
-  background-color: #8188A8;
+  background-color: #89CFF0;
   position: relative;
   border-radius: 10px;
  
@@ -186,7 +226,7 @@ a:hover {
 button {
   width: 150px;
   height: 70px;
-  background-color: #8188A8;
+  background-color: #F98866;
   border-radius: 10px;
   border: 0;
   transition-duration: 0.4s;
@@ -214,7 +254,7 @@ textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */
   border:1px solid  #8188A8;
-  background-color: #F2EDDC;
+  /* background-color: #F2EDDC; */
   font-family: 'Open sans';
   border-radius: 10px; /* Rounded borders */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
@@ -229,7 +269,7 @@ textarea {
   justify-content: center;
   align-items: center;
   border-radius: 5px;
-  background-color:  #F2EDDC;
+  /* background-color:  #F2EDDC; */
 
   border-width: 10px;
   padding: 20px;
