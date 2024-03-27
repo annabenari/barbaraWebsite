@@ -18,14 +18,13 @@ a{
   padding: 20px;
   display: grid;
   grid-template-columns: auto auto;
-  padding: 5% 5%;
   justify-content: center;
 }
 
 
 .contact-details-inside {
   padding-top: 40px;
-  width: 430px;
+  width: 500px;
   height: 300px;
   text-align: center;
   border-radius: 30px;
@@ -93,7 +92,7 @@ hr {
   height: 2px; /* thickness of the line */
   background-color: #8AAAE5; /* colour of the line */
   border: none; /* no border */
-  width: 80%;
+  width: 70%;
 }
 .services {
  
