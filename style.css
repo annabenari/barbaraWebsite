@@ -1,18 +1,22 @@
 body {
   font-family: 'Open sans';
-  background-color:#FFF2D7;
-  
+  /* background-color:#FFFF; */
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
   color: black;
   
 }
 
-/* Contact Details Section Home Page*/
+
 .contact-details {
+  padding: 20px;
   display: grid;
   grid-template-columns: auto auto;
   padding: 5% 5%;
   justify-content: center;
 }
+
 
 .contact-details-inside {
   padding-top: 40px;
@@ -60,6 +64,8 @@ body {
 }
 
 .about-me {
+
+
   display: grid;
   justify-content: center;
   text-align: center;
@@ -80,7 +86,7 @@ body {
 hr {
   margin: 2em auto; /* centred margin */
   height: 2px; /* thickness of the line */
-  background-color: #8188A8; /* colour of the line */
+  background-color: #8AAAE5; /* colour of the line */
   border: none; /* no border */
   width: 75%;
 }
@@ -92,15 +98,44 @@ hr {
   grid-row-gap: 2%;
   justify-content: center;
   /* padding-bottom: 100px; */
+  /* background-color:#BFF7FF; */
+
+
+ 
  
 
  
 }
 
+.feild{
+  width: 330px;
+  height: 300px;
+  padding: 40px;
+  justify-content: center;
+
+}
+
+.ocean{
+  width: 330px;
+  height: 300px;
+  padding: 40px;
+  justify-content: center;
+}
+.supervision-header , .counseling-header{
+  font-weight:bold;
+  font-size: large;
+  justify-content: center;
+  text-align: center;
+}
  .supervision,
 .counseling {
-  width: 400px;
-  height: 300px;
+/*   
+  background-image: url(Untitled-1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;  */
+  width: 420px;
+  height: 700px;
   text-align: center;
   padding-left: 20px;
   padding-right: 20px;
@@ -116,7 +151,7 @@ p.supervision-text{
 
 /* Navigation Styles */
 nav {
-  background-color: #F98866;
+  background-color: #8AAAE5;
   padding: 30px;
   margin: 0;
   border-radius: 10px;
@@ -175,7 +210,7 @@ a:hover {
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
-  background-color: #89CFF0;
+  background-color: #8AAAE5;
   position: relative;
   border-radius: 10px;
  
@@ -201,7 +236,7 @@ a:hover {
 
 /* Style the hamburger menu */
 .topnav a.icon {
-  background: #8188A8;
+  background: #8AAAE5;
   display: block;
   position: absolute;
   right: 0;
@@ -210,13 +245,13 @@ a:hover {
 
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
-  background-color:#8188A8;
+  background-color:#8AAAE5;
   color: black;
 }
 
 /* Style the active link (or home/logo) */
 .active {
-  background-color: #8188A8;
+  background-color: #8AAAE5;
   color: black;
 }
 
@@ -226,13 +261,13 @@ a:hover {
 button {
   width: 150px;
   height: 70px;
-  background-color: #F98866;
+  background-color: #408EC6;
   border-radius: 10px;
   border: 0;
   transition-duration: 0.4s;
   cursor: pointer; /* Change cursor to pointer */
   font-family: 'Open sans';
-  color: black;
+  color: white;
   
 }
 
@@ -253,7 +288,7 @@ select,
 textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */
-  border:1px solid  #8188A8;
+  border:1px solid  #8AAAE5;
   /* background-color: #F2EDDC; */
   font-family: 'Open sans';
   border-radius: 10px; /* Rounded borders */
@@ -331,7 +366,7 @@ textarea {
 	background: #d4c2ad;
 	display: none;
 	border-radius: 15px;
-  border: 5px solid #4e5d4b;
+  border: 5px solid #8AAAE5;
   padding: 25px;
 }
 .question {
@@ -432,6 +467,8 @@ p {
     grid-template-columns: auto;
     justify-content: center;
     width: auto;
+    background-color: black;
+
     
   }
 
@@ -445,6 +482,7 @@ p {
     padding: 2%;
     max-width: 700px;
     padding-bottom: 30px;
+   
   }
 
   .supervision-text{
