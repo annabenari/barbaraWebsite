@@ -8,6 +8,11 @@ body {
   
 }
 
+a{
+  padding: auto;
+  margin: auto;
+}
+
 
 .contact-details {
   padding: 20px;
@@ -40,47 +45,47 @@ body {
   text-align: center;
 }
 
+/* about me */
 
+.img-barb{
+  
+    width: 285px;
+    height: 300px;
+    text-align: center;
+    padding-top: 35px;
+    margin-right: 60px;
+   
+  
+}
+
+.about-me-details {
+
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+}
+
+.about-me-details-inside {
+
+  width: 500px;
+  height: 400px;
+  border-radius: 30px;
+}
+
+.button-about-me{
+  padding: 0%;
+}
 
 /* Services Section */
 .services-header {
   display: grid;
   justify-content: center;
   padding-bottom: 1%;
-  /* background-color:#8188A8 ; */
   color: black;
   font-size: 40px;
-  /* border: 2px solid #8188A8; */
-  /* text-decoration: underline   blue; */
+
 
 }
-
-.about-me-header {
-  display: grid;
-  justify-content: center;
-  padding-bottom: 1%;
-  color: black;
-  font-size: 40px;
-}
-
-.about-me {
-
-
-  display: grid;
-  justify-content: center;
-  text-align: center;
- padding-left: 25%;
- padding-right: 25%;
-}
-
-.about-me p {
-  text-align: center;
-}
-
-.read-more-supervision {
-  margin-top: 20px; /* Adjust as needed */
-}
-
 
 
 hr {
@@ -88,7 +93,7 @@ hr {
   height: 2px; /* thickness of the line */
   background-color: #8AAAE5; /* colour of the line */
   border: none; /* no border */
-  width: 75%;
+  width: 80%;
 }
 .services {
  
@@ -97,14 +102,7 @@ hr {
   grid-column-gap: 3%;
   grid-row-gap: 2%;
   justify-content: center;
-  /* padding-bottom: 100px; */
-  /* background-color:#BFF7FF; */
 
-
- 
- 
-
- 
 }
 
 .feild{
@@ -123,17 +121,12 @@ hr {
 }
 .supervision-header , .counseling-header{
   font-weight:bold;
-  font-size: large;
+  font-size: x-large;
   justify-content: center;
   text-align: center;
 }
  .supervision,
 .counseling {
-/*   
-  background-image: url(Untitled-1.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;  */
   width: 420px;
   height: 700px;
   text-align: center;
@@ -141,8 +134,7 @@ hr {
   padding-right: 20px;
   padding-bottom: 20px;
   border-radius: 30px;
-  /* background-color: #d4c2ad; */
-  /* border: 5px solid #66796B; */
+ 
 
 }
 p.supervision-text{
@@ -155,7 +147,7 @@ nav {
   padding: 30px;
   margin: 0;
   border-radius: 10px;
-  /* border: 2px solid #BFB3A4; */
+
 
 
 }
@@ -187,12 +179,17 @@ nav {
   margin-right: auto;
 }
 
-
-a {
+.a-link{
   text-decoration: none;
   color: black;
   padding: 0 10px;
 }
+
+/* a {
+  text-decoration: none;
+  color: black;
+  padding: 0 10px;
+} */
 
 a:hover {
   color: #ddd;
@@ -275,9 +272,9 @@ button:hover {
   background-color: #F2EDDC; /* Change background color on hover */
 }
 
-.read-more-supervision{
+/* .read-more-supervision{
 margin-top: 22px;
-}
+} */
 
 
 
@@ -467,7 +464,7 @@ p {
     grid-template-columns: auto;
     justify-content: center;
     width: auto;
-    background-color: black;
+  
 
     
   }
