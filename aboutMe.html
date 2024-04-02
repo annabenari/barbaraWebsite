@@ -20,88 +20,98 @@
 
     <body>
         <div class="nav-wrapper">
-            <nav>
-                <ul class="nav-list">
-                    <li class="home"><a href="./index.html">Home</a></li>
-                    <li><a href="./supervision.html">Supervision</a></li>
-                    <li><a href="./counselling.html">Counseling</a></li>
-                    <li id="container"><a href="#contact-me">Contact Me</a></li>
+            <div class="nav-wrapper">
+                <nav>
+                    <ul class="nav-list">
+                        <li class="home"><a href="./index.html">Home</a></li>
+                        <li><a href="./aboutMe.html" class="a-link">About Me</a></li>
+                        <li><a href="./supervision.html" class="a-link"> Supervision</a></li>
+                        <li><a href="./counselling.html" class="a-link">Counseling</a></li>
+                        <li class="contact-me-p"><a href="#contact-me" class="a-link">Contact Me</a></li>
 
-                </ul>
-            </nav>
-        </div>
-        <div class="phone-nav">
-            <div class="topnav">
-                <a href="./index.html" class="home active">Home</a>
+                    </ul>
+                </nav>
+            </div>
+            <div class="phone-nav">
+                <div class="topnav">
+                    <a href="./index.html" class="home active">Home</a>
 
-                <div id="myLinks" class="links">
-                    <a href="./supervision.html">Supervision</a>
-                    <a href="./counselling.html">Counseling</a>
-                    <a href="#contact-me">Contact Me</a>
+                    <div id="myLinks" class="links">
+                        <a href="./supervision.html">Supervision</a>
+                        <a href="./counselling.html">Counseling</a>
+                        <a href="#contact-me">Contact Me</a>
+
+                    </div>
+
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="supervision-detail">
+                <div class="supervision-details-inside">
+                    <h3>About Me</h3>
+
+                    <p>Welcome to my online space. I am genuinely delighted that you have found your way here, and I’m
+                        hopeful that as you explore, you’ll discover insights and options to guide your next steps. I
+                        hope
+                        too that this will give you a glimpse into my professional background, values, and the
+                        contributions
+                        I can make to your life’s journey.</p>
+
+                    <p>With over 40 years of experience as a Qualified Social Worker, Psychotherapist, and Supervisor,
+                        my
+                        career has spanned diverse settings and roles. While my formal training and education took root
+                        in
+                        the United States, I’ve been practicing in the UK since 2002. As a Psychotherapist specializing
+                        in
+                        trauma, and my education being grounded in Systemic Social Work, I am uniquely positioned to
+                        benefit
+                        from the extensive and varied experiences which have enriched my knowledge, understanding, and
+                        expertise. This depth of experience has enhanced the supervision work and support I am able to
+                        offer
+                        to other Therapists.</p>
+
+                    <p><strong>Education and Training:</strong></p>
+                    <ul class="about-me-list">
+                        <li>Bachelor of Arts – Psychology and Social Work, University of New Hampshire (1975)</li>
+                        <li>Master of Social Work, Adelphi University (NY) (1982)</li>
+                        <li>Licensed Clinical Social Worker - State of Georgia (1999)</li>
+                        <li>Diploma in Counselling Supervision, Farnborough College (CACPB 2008)</li>
+                    </ul>
+
+                    <p>Over the years, I’ve undertaken dozens of courses and workshops, covering a wide range of topics.
+                        Feel free to ask me if you wish to learn more about these.</p>
+
 
                 </div>
-
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                </a>
             </div>
-        </div>
 
 
-        <div class="supervision-detail">
-            <div class="supervision-details-inside">
-                <h3>About Me</h3>
 
-                <p>Welcome to my online space. I am genuinely delighted that you have found your way here, and I’m
-                    hopeful that as you explore, you’ll discover insights and options to guide your next steps. I hope
-                    too that this will give you a glimpse into my professional background, values, and the contributions
-                    I can make to your life’s journey.</p>
+            <div class="container">
+                <a id="contact-me"></a>
+                <form action="https://formspree.io/f/xjvnrwzk" method="POST">
 
-                <p>With over 40 years of experience as a Qualified Social Worker, Psychotherapist, and Supervisor, my
-                    career has spanned diverse settings and roles. While my formal training and education took root in
-                    the United States, I’ve been practicing in the UK since 2002. As a Psychotherapist specializing in
-                    trauma, and my education being grounded in Systemic Social Work, I am uniquely positioned to benefit
-                    from the extensive and varied experiences which have enriched my knowledge, understanding, and
-                    expertise. This depth of experience has enhanced the supervision work and support I am able to offer
-                    to other Therapists.</p>
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="fname" placeholder="Your name..">
 
-                <p><strong>Education and Training:</strong></p>
-                <ul class="about-me-list">
-                    <li>Bachelor of Arts – Psychology and Social Work, University of New Hampshire (1975)</li>
-                    <li>Master of Social Work, Adelphi University (NY) (1982)</li>
-                    <li>Licensed Clinical Social Worker - State of Georgia (1999)</li>
-                    <li>Diploma in Counselling Supervision, Farnborough College (CACPB 2008)</li>
-                </ul>
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lname" placeholder="Your last name..">
 
-                <p>Over the years, I’ve undertaken dozens of courses and workshops, covering a wide range of topics.
-                    Feel free to ask me if you wish to learn more about these.</p>
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Your email">
 
+                    <label for="message">Subject</label>
+                    <textarea id="message" name="message" placeholder="Write something.."
+                        style="height:200px"></textarea>
 
+                    <button type="submit">Submit</button>
+
+                </form>
             </div>
-        </div>
-
-
-
-        <div class="container">
-            <a id="contact-me"></a>
-            <form action="https://formspree.io/f/xjvnrwzk" method="POST">
-
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="fname" placeholder="Your name..">
-
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lname" placeholder="Your last name..">
-
-                <label for="email">Email</label>
-                <input type="text" id="email" name="email" placeholder="Your email">
-
-                <label for="message">Subject</label>
-                <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
-
-                <button type="submit">Submit</button>
-
-            </form>
-        </div>
 
 
 
