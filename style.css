@@ -468,15 +468,24 @@ padding-bottom: 0;
 }
 
 @media only screen and (max-width: 450px) {
+
+  .button-about-me {
+    margin: 0px;
+    margin-left: 40px;
+}
   .about-me-details-inside{
+    justify-content: center;
     width: 320px;
     text-align: center;
+    margin-right: 35px;
   }
   .about-me-details{
     margin-bottom: 120px;
   }
   p.about-me-info{
+    justify-content: center;
     text-align: center;
+    width: 360px;
   }
 
 .feild, .ocean {
@@ -527,9 +536,21 @@ padding-bottom: 0;
 
 @media only screen and (max-width: 378px) {
 
+  .button-about-me {
+    margin: 0px;
+
+}
+
+p.about-me-info{
+  width: 320px;
+  justify-content: center;
+  text-align: center;
+}
+
 .about-me-details-inside{
   width: 320px;
   text-align: center;
+  margin-right: 0;
 }
 
   p.about-me-info{
@@ -602,7 +623,66 @@ padding-left: 0;
   .about-me-details{
     margin-bottom: 1px;
   }
+.contact-details-inside{
+  text-align: center;
+  justify-content: center;
+  width: 300px;
+  margin-right: 100px;
+}
 
+p.important-info{
+  text-align: center;
+  justify-content: center;
+  width: 300px;
  
 }
 
+.about-me-details{
+margin-bottom: 140px;
+}
+
+
+
+}
+
+@media only screen and (max-width: 280px){
+  .about-me-details-inside {
+    width: 250px;
+    text-align: center;
+    margin-right: 0;
+}
+
+p.about-me-info{
+  width: 250px;
+}
+
+.ocean, .feild{
+  width:230px ;
+  height: 240px;
+  object-fit: cover;
+}
+
+.img-barb{
+  width:230px ;
+  height: 240px;
+  object-fit: cover;
+}
+
+.contact-details-inside{
+  width:230px ;
+
+}
+
+p.important-info{
+  width:230px ;
+}
+
+body{
+  font-size: small;
+}
+
+.ocean, .feild{
+  justify-content: center;
+  margin-right: 70px;
+}
+}
